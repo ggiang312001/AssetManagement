@@ -1,0 +1,92 @@
+.site-layout-background {
+	background: #fff;
+}
+.content-layout-background {
+	padding: 10px 30px;
+}
+.ant-layout-header {
+	background: #cf2338;
+	color: #fff;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header div {
+	font-size: 26px;
+	font-weight: 500;
+}
+
+.ant-layout-header .ant-menu {
+	background: #cf2338;
+}
+
+.ant-menu-title-content {
+	color: #fff;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.content-layout-background {
+	padding: 60px 50px;
+}
+
+.ant-menu-inline .ant-menu-item:after,
+.ant-menu-vertical-left .ant-menu-item:after,
+.ant-menu-vertical-right .ant-menu-item:after,
+.ant-menu-vertical .ant-menu-item:after {
+	border-right: 3px solid #cf2338;
+}
+
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-active:after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-open:after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-selected:after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item:hover:after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-active:after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-open:after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-selected:after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu:hover:after {
+	border-bottom: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+.ant-menu-item-active a:hover,
+.ant-menu-item-active::after,
+.ant-menu-item-selected,
+.ant-menu-item-selected a,
+.ant-menu-item-selected a:hover,
+.ant-modal-title {
+	color: #cf2338;
+}
+
+h1 {
+	font-size: 20px;
+	font-weight: 500;
+}
+
+.red-btn {
+	background-color: #cf2338;
+	border: none;
+}
+.button-modal {
+	border-radius: 5px;
+	margin-right: 15px;
+}
+.ant-form-item-label-left {
+	font-weight: bold;
+	font-size: 15px !important;
+}
+
+#create-asset-form-title {
+	color: #cf2338;
+}
+
+.create-assignment-label {
+	margin-left: 8px;
+}
